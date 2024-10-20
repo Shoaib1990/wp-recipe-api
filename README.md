@@ -20,10 +20,17 @@ Once you’ve added the code, you can test the REST API endpoints:
 Get all recipes:
 
 ```
-https://yourdomain.com/wp-json/wp/v2/books
+https://yourdomain.com/wp-json/wp/v2/recipes
+https://recipesapi.shoaibkhalid.ca/wp-json/wp/v2/recipes
 ```
 
 Get a single recipe by ID:
 ```
-https://yourdomain.com/wp-json/wp/v2/books/{id}
+https://yourdomain.com/wp-json/wp/v2/recipes/{id}
+https://recipesapi.shoaibkhalid.ca/wp-json/wp/v2/recipes/12
+```
+
+### Example:
+```
+https://recipesapi.shoaibkhalid.ca/wp-json/wp/v2/recipes
 ```
